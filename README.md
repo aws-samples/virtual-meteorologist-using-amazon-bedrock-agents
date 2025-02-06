@@ -135,10 +135,11 @@ These queries showcase the agent's ability to provide current weather informatio
 If you decide to discontinue using the virtual meteorologist, you can follow these steps to remove it, its associated resources deployed using AWS CloudFormation, and the Amplify deployment:
 
 1. Delete the CloudFormation stack:
-2. On the AWS CloudFormation console, choose **Stacks** in the navigation pane.
-3. Locate the stack you created during the deployment process (you assigned a name to it).
-4. Select the stack and choose **Delete**.
-5. Delete the Amplify application and its resources. For instructions, refer to [Clean Up Resources](https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb/module-six/).
+    1. On the AWS CloudFormation console, choose **Stacks** in the navigation pane.
+    2. Locate the stack you created during the deployment process (you assigned a name to it).
+    3. Select the stack and choose **Delete**.
+
+2. Delete the Amplify application and its resources. For instructions, refer to [Clean Up Resources](https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb/module-six/).
 
 ## Conclusion
 
