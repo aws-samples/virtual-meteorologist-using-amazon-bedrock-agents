@@ -9,7 +9,7 @@ Amazon Bedrock Agents helps to streamline workflows and automate repetitive task
 
 In this post, we present a streamlined approach to deploying an AI-powered agent by combining Amazon Bedrock Agents and a [foundation model](https://aws.amazon.com/what-is/foundation-models/) (FM). We guide you through the process of configuring the agent and implementing the specific logic required for the virtual meteorologist to provide accurate weather-related responses. Additionally, we use various AWS services, including [AWS Amplify](https://aws.amazon.com/amplify/) for hosting the front end, [AWS Lambda](https://aws.amazon.com/lambda/) functions for handling request logic, [Amazon Cognito](https://aws.amazon.com/cognito/) for user authentication, and [AWS Identity and Access Management](https://aws.amazon.com/iam/) (IAM) for controlling access to the agent.
 
-## Solution overview
+## Solution overvie
 
 The diagram gives an overview and highlights the key components. The architecture uses Amazon Cognito for user authentication and Amplify as the hosting environment for our front-end application. Amazon Bedrock Agents forwards the details from the user query to the action groups, which further invokes custom Lambda functions. Each action group and Lambda function handles a specific task:
 
